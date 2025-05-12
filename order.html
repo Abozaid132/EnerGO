@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order EnerGO</title>
+</head>
+<body style="font-family:sans-serif; padding:20px;">
+    <h1>EnerGO Order Form</h1>
+    <form onsubmit="alert('Order submitted successfully!'); return false;">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="model">Select Model:</label><br>
+        <select id="model" name="model">
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+        </select><br><br>
+
+        <label for="message">Additional Notes:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnerGO | Smart Electric Car</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00695c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004d40;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #00695c;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .review-form textarea {
+            width: 100%;
+            height: 80px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .review-form button {
+            background-color: #00695c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EnerGO</h1>
+        <p>The Smart Eco-Friendly Electric Car – An Innovative Arab Project</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#buy">Buy</a>
+        <a href="order.html">Order</a>
+        <a href="#contact">Contact</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+
+    <section>
+        <h2>About EnerGO</h2>
+        <p>We are the EnerGO team from Nile Higher Institute of Engineering and Technology, developing a hybrid car powered by solar energy and a dynamo, offering an eco-friendly and economical solution to pollution and high charging costs.</p>
+    </section>
+
+    <section>
+        <h2>Our Vision</h2>
+        <ul>
+            <li>Car that doesn’t require external charging stations</li>
+            <li>Low maintenance and operation costs</li>
+            <li>Environmentally friendly</li>
+            <li>Affordable and practical for urban use</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Specifications</h2>
+        <ul>
+            <li>3 polycrystalline solar panels (18V – 50W each)</li>
+            <li>Dynamo 12V – 60A</li>
+            <li>4 lead-acid batteries (48V 20Ah)</li>
+            <li>750W BLDC motor with 2.39Nm torque</li>
+            <li>Mobile app with GPS and battery monitoring</li>
+        </ul>
+    </section>
+
+    <section id="buy">
+        <h2>Buy EnerGO</h2>
+        <p>If you are interested in purchasing or pre-ordering the EnerGO car, please <a href="order.html">fill out the order form</a> or <a href="#contact">contact us</a>.</p>
+        <button onclick="alert('Added to cart (demo only)')">🛒 Add to Cart</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@energo-project.com">info@energo-project.com</a></p>
+        <p>Location: Nile Higher Institute of Engineering – Egypt</p>
+        <p>Phone: +20-123-456-7890</p>
+    </section>
+
+    <section id="reviews">
+        <h2>Leave a Review</h2>
+        <form class="review-form" onsubmit="alert('Thank you for your feedback!'); return false;">
+            <textarea placeholder="Write your opinion here..."></textarea><br>
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>📧 info@energo-project.com | 📍 Nile Higher Institute of Engineering – Egypt</p>
+    </footer>
+</body>
+</html>
